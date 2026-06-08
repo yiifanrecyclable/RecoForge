@@ -44,8 +44,8 @@
 
 ## 📦 下载安装 / Download
 
-前往 [Releases](https://github.com/YOUR_USERNAME/RecoForge/releases) 页面下载对应平台的安装包。
-Download the installer for your platform from the [Releases](https://github.com/YOUR_USERNAME/RecoForge/releases) page.
+前往 [Releases](https://github.com//yiifanrecyclable/RecoForge/releases) 页面下载对应平台的安装包。
+Download the installer for your platform from the [Releases](https://github.com//yiifanrecyclable/RecoForge/releases) page.
 
 | 平台 / Platform | 文件 / File |
 |-----------------|-------------|
