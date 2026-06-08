@@ -31,10 +31,8 @@
 **数据管理 / Data Management**
 - 耗材库、标件库统一管理
 - Material library and standard parts library
-- 图片上传与裁剪（版本封面、零件缩略图）
+- 图片上传与裁剪
 - Image upload with cropping (version covers, part thumbnails)
-- Markdown 格式产品报告导出
-- Markdown product report export
 
 **工作区 / Workspace**
 - 所有数据本地存储（SQLite），安全可靠
