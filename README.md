@@ -75,16 +75,19 @@ _待补充 / Coming soon_
 
 ## 📝 更新日志 / Changelog
 
-### v0.2.2
+### v0.2.3
 
-- 产品自定义分组（创建、重命名、删除、折叠、移入/移出）
-- Custom product groups (create, rename, delete, collapse, move products in/out)
-- 导航栏图标更新 / Updated navigation icons
-- 设置页二维码与联系作者按钮 / QR codes and contact button in settings
-- 多项交互优化与 bug 修复 / Multiple UX improvements and bug fixes
-
-完整日志见 [CHANGELOG.md](./CHANGELOG.md)。
-Full changelog: [CHANGELOG.md](./CHANGELOG.md).
+- 耗材颜色列彩虹排序（按色相 HSL 渐变）
+- Material color column rainbow sort (HSL hue gradient)
+- 耗材批量修改单价（复选框多选 + 浮动操作栏）
+- Batch material price update (multi-select checkboxes)
+- 耗材复制新建（右键菜单，自动命名递增）
+- Copy-create material (right-click menu, auto-increment naming)
+- 耗材编辑时颜色名称重复检测
+- Duplicate color name validation on material edit
+- 设置页新增 GitHub 项目链接
+- GitHub project link added to settings page
+- 多项 UI 优化与交互改进 / Multiple UI and UX improvements
 
 ---
 
