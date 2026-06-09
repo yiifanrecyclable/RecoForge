@@ -3,7 +3,7 @@
 > 一款面向 3D 打印产品创作者的综合管理工具。
 > A management tool for 3D printing product creators.
 
-![Version](https://img.shields.io/badge/version-0.2.2-blue)
+![Version](https://img.shields.io/badge/version-0.2.3-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-lightgrey)
 
 ---
