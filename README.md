@@ -41,6 +41,9 @@ RecoForge 是一款面向 3D 打印产品创作者的产品管理与成本核算
 - 在软件内预览 3D 模型，支持旋转、缩放和平移。
 - 可用当前观察视角重新生成缩略图。
 
+<img width="1721" height="985" alt="6cdefd01f10e3d256f89646fac1d8e0d" src="https://github.com/user-attachments/assets/f79dd404-ca92-4c9a-8dc9-1401c8de9536" />
+
+
 ### 从 3MF 文件提取打印件
 
 - 读取 3MF 中的模型对象名称。
@@ -54,6 +57,11 @@ RecoForge 是一款面向 3D 打印产品创作者的产品管理与成本核算
 - 建立自己的耗材库，记录品牌、系列、颜色和价格。
 - 建立常用标件库，方便直采件引用。
 - 支持图片上传、裁剪和替换，让资料更直观。
+<img width="482" height="522" alt="e146be6883d15abddd8e33a6753f4ff4" src="https://github.com/user-attachments/assets/8248ac9a-b7dd-4d76-9990-4c4c749d67fe" />
+<img width="482" height="521" alt="f8867e1f567789dc996b76a40c1ad316" src="https://github.com/user-attachments/assets/5ddd1ee6-8d99-4bce-a410-69807f2cbb9d" />
+<img width="519" height="700" alt="531f96a54819bd09013cc5215c8b0525" src="https://github.com/user-attachments/assets/9ac431b9-dbf2-4769-bdcf-e7e0ce98c269" />
+<img width="990" height="802" alt="f0bcc06f55ba6a99ef684da14e0f87f8" src="https://github.com/user-attachments/assets/b9b2d5fd-58ad-4fc1-9149-7830a45af34f" />
+
 
 ## 本地数据
 
