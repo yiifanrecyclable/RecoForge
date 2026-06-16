@@ -1,101 +1,77 @@
+[README.md](https://github.com/user-attachments/files/28998952/README.md)
 # RecoForge
 
-> 一款面向 3D 打印产品创作者的综合管理工具。
-> A management tool for 3D printing product creators.
+RecoForge 是一款面向 3D 打印产品创作者的产品管理与成本核算工具。
 
-![Version](https://img.shields.io/badge/version-0.2.3-blue)
-![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-lightgrey)
+它适合用来整理一个产品从拆件、打样、定价到版本迭代的全过程，帮助你把打印件、外协件、直采件、辅料、耗材和标件统一管理起来，减少对零散表格的依赖。
 
----
+## 适合谁使用
 
-## ✨ 功能 / Features
+- 有多个 3D 打印产品需要长期维护的创作者。
+- 需要核算材料、电费、辅材、外协和采购成本的工作室。
+- 需要按产品版本记录零件变化和生产信息的卖家。
+- 经常从 3MF / STL 文件整理打印件清单的用户。
 
-**产品管理 / Product Management**
-- 产品分组与版本迭代管理
-- Organize products into groups with version tracking
+## 你可以用它做什么
 
-**成本核算 / Cost Calculation**
-- 实时计算打印件、定制件、直采件、辅料的综合成本
-- Real-time cost calculation across print parts, custom parts, purchase parts, and other expenses
+### 管理产品与版本
 
-**零件管理 / Part Management**
-- 打印件：自动计算材料费 + 电费，支持多辅材
-- Print parts: automatic material + electricity cost, multi-material support
-- 定制件：外协加工件管理
-- Custom parts: outsourced processing parts
-- 直采件：从标件库选取，自动同步价格
-- Purchase parts: select from standard parts library with live price sync
-- 辅料：其他零散成本项
-- Other expenses: miscellaneous cost items
+- 为不同产品建立独立档案。
+- 按版本记录产品迭代、封面图、说明和状态。
+- 在产品页查看总生产成本、打印工时和成本构成。
 
-**数据管理 / Data Management**
-- 耗材库、标件库统一管理
-- Material library and standard parts library
-- 图片上传与裁剪
-- Image upload with cropping (version covers, part thumbnails)
+### 管理各种零件
 
-**工作区 / Workspace**
-- 所有数据本地存储（SQLite），安全可靠
-- All data stored locally (SQLite), safe and reliable
-- 支持自定义工作区路径
-- Customizable workspace path
+- 分别管理打印件、定制件、直采件和辅料。
+- 为零件设置编号、数量、备注和产品 / 包装属性。
+- 复制已有零件快速新建相似项目。
+- 在同一产品版本内避免重复编号。
 
----
+### 计算产品成本
 
-## 📦 下载安装 / Download
+- 打印件可按重量、耗材价格、打印时间、电价、辅材和良率计算成本。
+- 定制件、直采件和辅料可按单价与数量计算。
+- 直采件可引用标件库价格，便于统一维护。
+- 用圆环图查看产品成本由哪些部分构成。
 
-前往 [Releases](https://github.com//yiifanrecyclable/RecoForge/releases) 页面下载对应平台的安装包。
-Download the installer for your platform from the [Releases](https://github.com//yiifanrecyclable/RecoForge/releases) page.
+### 管理 STL 模型
 
-| 平台 / Platform | 文件 / File |
-|-----------------|-------------|
-| Windows | `.exe` 安装包 / installer |
-| macOS | `.dmg` 安装包 / installer |
+- 为打印件关联 STL 模型。
+- 自动生成模型缩略图。
+- 在软件内预览 3D 模型，支持旋转、缩放和平移。
+- 可用当前观察视角重新生成缩略图。
 
----
+### 从 3MF 文件提取打印件
 
-## 🛠 技术栈 / Tech Stack
+- 读取 3MF 中的模型对象名称。
+- 将模型提取为可管理的打印件。
+- 支持组合体作为独立零件导入。
+- 通过模型内容识别重复 STL，避免重复保存。
+- 名称重复但模型不同的零件，可选择替换或保留。
 
-| 层级 / Layer | 技术 / Technology |
-|-------------|-------------------|
-| 框架 / Framework | [Tauri v2](https://tauri.app/) |
-| 前端 / Frontend | React 19 + TypeScript |
-| 状态管理 / State | Zustand |
-| UI 组件 / UI | shadcn/ui + TailwindCSS v4 |
-| 数据库 / Database | SQLite (WAL mode) |
-| 图标 / Icons | [Lucide](https://lucide.dev/) |
+### 管理耗材和标件
 
----
+- 建立自己的耗材库，记录品牌、系列、颜色和价格。
+- 建立常用标件库，方便直采件引用。
+- 支持图片上传、裁剪和替换，让资料更直观。
 
-## 📸 截图 / Screenshots
+## 本地数据
 
-_待补充 / Coming soon_
+RecoForge 的数据和资源保存在本地工作区中。你可以根据自己的使用习惯设置工作区位置，方便备份、迁移和长期维护。
 
----
+## 下载
 
-## 📝 更新日志 / Changelog
+请在 GitHub Releases 页面下载适合你系统的安装包。
 
-### v0.2.3
+- Windows：下载 `.msi` 或 `.exe` 安装包。
+- macOS：下载 macOS 安装包。
 
-- 耗材颜色列彩虹排序（按色相 HSL 渐变）
-- Material color column rainbow sort (HSL hue gradient)
-- 耗材批量修改单价（复选框多选 + 浮动操作栏）
-- Batch material price update (multi-select checkboxes)
-- 耗材复制新建（右键菜单，自动命名递增）
-- Copy-create material (right-click menu, auto-increment naming)
-- 耗材编辑时颜色名称重复检测
-- Duplicate color name validation on material edit
-- 设置页新增 GitHub 项目链接
-- GitHub project link added to settings page
-- 多项 UI 优化与交互改进 / Multiple UI and UX improvements
+## 当前版本
 
----
+`0.3.0`
 
-## 🤝 反馈与联系 / Contact
+本版本重点完善了打印件模型管理、3MF 提取流程、STL 缩略图、3D 预览和产品页成本构成展示。
 
-如需联系作者，可在软件设置页扫码添加微信。
-Scan the WeChat QR code in the app settings to contact the author.
+## 反馈
 
----
-
-_Made with ❤️ for the 3D printing community_
+如果你在使用中遇到问题，或有适合 3D 打印产品管理场景的新想法，欢迎通过 GitHub Issues 反馈。
